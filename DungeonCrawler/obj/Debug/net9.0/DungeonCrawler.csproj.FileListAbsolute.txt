@@ -1,0 +1,14 @@
+C:\Users\bridg\source\repos\DungeonCrawler\bin\Debug\net9.0\DungeonCrawler.exe
+C:\Users\bridg\source\repos\DungeonCrawler\bin\Debug\net9.0\DungeonCrawler.deps.json
+C:\Users\bridg\source\repos\DungeonCrawler\bin\Debug\net9.0\DungeonCrawler.runtimeconfig.json
+C:\Users\bridg\source\repos\DungeonCrawler\bin\Debug\net9.0\DungeonCrawler.dll
+C:\Users\bridg\source\repos\DungeonCrawler\bin\Debug\net9.0\DungeonCrawler.pdb
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.AssemblyInfoInputs.cache
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.AssemblyInfo.cs
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.csproj.CoreCompileInputs.cache
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.dll
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\refint\DungeonCrawler.dll
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.pdb
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\DungeonCrawler.genruntimeconfig.cache
+C:\Users\bridg\source\repos\DungeonCrawler\obj\Debug\net9.0\ref\DungeonCrawler.dll
