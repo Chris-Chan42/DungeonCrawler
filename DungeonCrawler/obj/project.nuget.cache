@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dZvCWswp4ug=",
+  "dgSpecHash": "RU7X1HxpC94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\DungeonCrawler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\DungeonCrawler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fifa6\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\fifa6\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\fifa6\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\fifa6\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\DungeonCrawler.csproj": {}
+    "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\DungeonCrawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\DungeonCrawler.csproj": {
+    "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\DungeonCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\DungeonCrawler.csproj",
+        "projectUniqueName": "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\DungeonCrawler.csproj",
         "projectName": "DungeonCrawler",
-        "projectPath": "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\DungeonCrawler.csproj",
-        "packagesPath": "C:\\Users\\bridg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bridg\\source\\repos\\DungeonCrawler\\obj\\",
+        "projectPath": "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\DungeonCrawler.csproj",
+        "packagesPath": "C:\\Users\\fifa6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fifa6\\Downloads\\DungeonCrawler-main\\DungeonCrawler-main\\DungeonCrawler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bridg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fifa6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,12 +61,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
