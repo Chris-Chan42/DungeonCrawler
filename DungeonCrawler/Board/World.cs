@@ -9,6 +9,7 @@ namespace DungeonCrawler.Board
         private int playerY;
         private int width;
         private int height;
+        Room previousRoom;
 
         public World(int width = 10, int height = 10)
         {
@@ -37,9 +38,15 @@ namespace DungeonCrawler.Board
 
             // Add items and creatures
             map[1, 0].Items.Add(new Item("Lantern", "An old oil lantern."));
-            map[2, 0].Creatures.Add(new Creature("Goblin", 20));
             map[3, 1].Items.Add(new Item("Sword", "A rusty sword."));
-            map[3, 1].Creatures.Add(new Creature("Wolf", 15));
+            map[2, 0].Creatures.Add(new Creature("Goblin", 15, 5, "Goblin", false));
+            map[2, 0].Creatures.Add(new Creature("Goblin", 15, 5, "Goblin", false));
+            map[2, 0].Creatures.Add(new Creature("Goblin", 15, 5, "Goblin", false));
+            map[3, 1].Creatures.Add(new Creature("Wolf", 20, 8, "Wolf", false));
+            map[3, 1].Creatures.Add(new Creature("Wolf", 20, 8, "Wolf", false));
+            map[0, 1].Creatures.Add(new Creature("Stone Golem", 100, 12, "Golem", false));
+            map[1, 1].Creatures.Add(new Creature("Waddling Bomb", 20, 80, "Bomb", false));
+            map[3, 1].Creatures.Add(new Creature("Red Dragon", 150, 20, "Boss", true));
 
             // Fill remaining null tiles with empty rooms
             for (int x = 0; x < width; x++)
@@ -54,6 +61,7 @@ namespace DungeonCrawler.Board
 
         public bool Move(string direction)
         {
+            previousRoom = GetCurrentRoom(); // Store current room before moving
             int newX = playerX;
             int newY = playerY;
 
@@ -146,6 +154,28 @@ namespace DungeonCrawler.Board
                 Console.WriteLine();
             }
             Console.WriteLine();
+        }
+        public void Flee()
+        {
+            if (previousRoom != null)
+            {
+                // Find the coordinates of the previous room
+                for (int x = 0; x < width; x++)
+                {
+                    for (int y = 0; y < height; y++)
+                    {
+                        if (map[x, y] == previousRoom)
+                        {
+                            playerX = x;
+                            playerY = y;
+                            Console.WriteLine("You flee back to the previous room.");
+                            DisplayMap();
+                            return;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("You have nowhere to flee!");
         }
     }
 }
